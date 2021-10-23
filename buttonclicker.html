@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="buttonclicker.css"/>
+    <script type="text/javascript" src="buttonclicker.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="nav-bar">
+            <h1 id="nav-title">Dojonary</h1>
+            <input id="search" type="text" name="search" placeholder="Search"/>
+            <button id="login" type="button" onclick="login(this)">Login</buttton>
+        </div>
+        <div class="content">
+            <div class="left-side">
+                <div class="card">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <ul>
+                            <li class="noun">noun</li>
+                            <li class="more">Plural: <span>ninjas</span></li>                        
+                        </ul>
+                        <input type="button" value="13 likes" onclick="likes()"/>    
+                    </div>
+                    <div class="definition">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>   
+                </div>
+                <div class="card">
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <ul>
+                            <li class="noun">noun</li>
+                            <li class="more">Plural: <span>ninjas</span></li>                        
+                        </ul>
+                        <input type="button" value="37 likes" onclick="likes()"/>    
+                    </div>
+                    <div class="definition">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>   
+                </div>
+            </div>  
+            <div class="right-side">
+                <div class="card-1">
+                    <p>Dojonary is<br>defined by YOU</p>
+                    <input type="button" value="Add Definition" onclick="hide(this)"/>
+                </div>
+            </div>
+        </div>    
+    </div>   
+</body>
